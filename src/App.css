@@ -1,12 +1,10 @@
-/* Ensure #root has the correct width and padding */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-/* Navbar Styling */
 nav {
   background: linear-gradient(45deg, #6e7e85, #a0b2c3);
   color: white;
@@ -25,7 +23,7 @@ nav:hover {
   background: linear-gradient(45deg, #a0b2c3, #6e7e85);
 }
 
-/* Card Styling */
+/* Cards */
 .card {
   font: 1em sans-serif;
   border: 1px solid #ccc;
@@ -58,7 +56,6 @@ ul {
 }
 
 
-/* Additional spacing for form controls */
 .form-control {
   margin-bottom: 1rem;
   align-items: left;
@@ -70,7 +67,7 @@ h5 {
 
 button {
   width: 100%;
-  /* Ensure button takes full width */
+
 }
 
 .stockList {
