@@ -12,13 +12,13 @@ export const PortfolioSummary = (props) => {
                 <strong>Portfolio Summary</strong>
               </h2>
               <h5>
-                Total Value: <strong>${props.summary.totalValue.toFixed(2)}</strong>
+                Total Value: <strong>₹{props.summary.totalValue.toFixed(2)}</strong>
               </h5>
               <h5>
                 Stocks Owned: <strong>{props.summary.stockCount}</strong>
               </h5>
               <h5>
-                Cash Balance: <strong>${props.summary.cashBalance.toFixed(2)}</strong>
+                Cash Balance: <strong>₹{props.summary.cashBalance.toFixed(2)}</strong>
               </h5>
             </div>
           </Card.Text>

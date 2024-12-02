@@ -26,7 +26,7 @@ const StockList = ({ stocks }) => {
             <ul>
               {updatedStocks.map((stock) => (
                 <li key={stock.symbol}>
-                  {stock.symbol} - {stock.name} - ${stock.price.toFixed(2)}
+                  {stock.symbol} - {stock.name} - ₹{stock.price.toFixed(2)}
                 </li>
               ))}
             </ul>
