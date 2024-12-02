@@ -27,7 +27,7 @@ function App() {
   return (
     <Container className="mt-5">
       <nav>
-        <h1>Stock Portfolio</h1>
+        <h1>Stock Market Portfolio </h1>
       </nav>
 
       {/* First Row (Left side and Right side cards) */}
